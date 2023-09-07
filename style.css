@@ -1,6 +1,6 @@
 /* universal selector - selects literally everything */ 
 * {
- display: none;    
+   
 }
 /* type selector - matches my element with this name */
 p {
