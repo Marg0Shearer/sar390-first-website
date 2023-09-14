@@ -1,28 +1,17 @@
-/* universal selector - selects literally everything */ 
-* {
-   
+body {
+    width: 100%;
+    margin: 1%;
+    background-color: magenta; 
+    color: aquamarine;
+    font-family: 'Lucida Sans'; 
+    font-size: 25pt;
+} 
+h1 {
+    text-align: center;
 }
-/* type selector - matches my element with this name */
 p {
-
+    color: aqua;  
 }
-/* ID selector - selects the html element with this ID attribute*/ 
-/* <p id="blue"> */
-#blue {
-
-}
-/* class selector - selects the matching class attribute */
-/* <p class="fancy"> */
-.fancy {
-
-}
-
-/* child selector - selects an item that is a child of something else */ 
-p > a {
-    color: greenyellow 
-}
-
-/* descendant selector */
-footer.fancy a {
-
+img {
+    text-align: center;
 }
