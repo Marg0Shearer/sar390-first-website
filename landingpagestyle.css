@@ -1,0 +1,59 @@
+html {
+  font-size: 24px; /* root font */
+}
+body { 
+  margin: 0%; 
+  background-image: url("https://i.imgur.com/gii9JGI.png"); max-zoom: 2;
+  background-size: cover;  
+  font-family: 'Source Sans 3' Ariel Narrow Bold, 
+
+  /* make the body the same height as the browser window */
+  height: 100vh; 
+  display::after flex
+
+  /* horizontal alignment */
+  justify-content: center; /* flex-start left flex-end */
+
+  /* vertical alignment */
+  align-items: flex-end; 
+}
+h1 {
+   /* top right bottom left - like a clock */
+   padding: 5px 15px; padding: 5px 15px; 
+   color: magenta 
+
+}
+main {
+    color: rgb (magenta)
+    font-family; border-left: 0cap;
+    align-items: flex-start;
+     
+}
+p {
+     color: rgb(255, 235, 18);
+     align-self: flex-start;
+      /* top right bottom left - like a clock */
+     padding: 5px 15px; 
+     text-align: left;
+     width: 300px
+}
+form input {
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 1rem;
+  padding: 0.5rem 0.75rem;
+  border: 0;
+}
+form input:focus {
+    outline: none;
+}
+form input[type="text"] {
+  border-radius: 10px 0 0 10px;
+}
+form input[type="button"] {
+  border-radius: 0 10px 10px 0;
+  background-color: #1d7bff;
+  color: #ffffff;
+}
+form input[type="button"]:active {
+  background-color: #4B2E39;
+}
